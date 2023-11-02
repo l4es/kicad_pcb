@@ -1,0 +1,52 @@
+
+(module MINI-FLAT-4 (layer F.Cu) (tedit 65435435)
+  (descr "")
+  (attr smd)
+  (fp_text reference REF** (at -3.175 -1.27 900) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (fp_text value MINI-FLAT-4 (at 3.175 -5.08 900) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -1.27 3.25) (size 0.8 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 2 smd rect (at 1.27 3.25) (size 0.8 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 3 smd rect (at 1.27 -3.25) (size 0.8 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad 4 smd rect (at -1.27 -3.25) (size 0.8 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_line (start 1.925 2.0849) (end 1.925 -2.0849) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 1.925 -2.0849) (end -1.925 -2.0849) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -1.925 -2.0849) (end -1.925 2.0849) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -1.925 2.0849) (end 1.925 2.0849) (layer F.SilkS) (width 0.2032))
+  (fp_circle (center -0.989 1.285) (end -0.6541 1.285) (layer F.SilkS) (width 0.1016))
+  (fp_poly
+    (pts
+      (xy -1.9305 2.62)
+      (xy -0.6095 2.62)
+      (xy -0.6095 3.001)
+      (xy -1.9305 3.001)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.6095 2.62)
+      (xy 1.9305 2.62)
+      (xy 1.9305 3.001)
+      (xy 0.6095 3.001)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.6095 -3.001)
+      (xy 1.9305 -3.001)
+      (xy 1.9305 -2.62)
+      (xy 0.6095 -2.62)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.9305 -3.001)
+      (xy -0.6095 -3.001)
+      (xy -0.6095 -2.62)
+      (xy -1.9305 -2.62)
+    ) (layer F.Fab) (width 0.01)
+  )
+)
